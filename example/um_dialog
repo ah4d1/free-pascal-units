@@ -1,1 +1,9 @@
+// FcGetUserRespond
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  LUserRespond : string;
+begin
+  VUMDialog.FcGetUserRespond('My Title','My Message',LUserRespond);
+  ShowMessage(LUserRespond);
+end;
 
